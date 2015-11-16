@@ -26,9 +26,9 @@ public class CommentRemoverSpec {
         System.setOut(null);
     }
 
-    private final File validJava = new File(this.getClass().getResource("../../../resources/ValidJava").getFile());
-    private final File javaWihtoutComments = new File(this.getClass().getResource("../../../resources/JavaWithoutComments").getFile());
-    private final File javaWihtDoubleSlashInsideStrings = new File(this.getClass().getResource("../../../resources/JavaWithDoubleSlashInsideStrings").getFile());
+    private final File validJava = new File(this.getClass().getResource("resources/ValidJava").getFile());
+    private final File javaWihtoutComments = new File(this.getClass().getResource("resources/JavaWithoutComments").getFile());
+    private final File javaWihtDoubleSlashInsideStrings = new File(this.getClass().getResource("resources/JavaWithDoubleSlashInsideStrings").getFile());
 
     @Test
     public void shouldRemoveCommentsFromValidJava() {
