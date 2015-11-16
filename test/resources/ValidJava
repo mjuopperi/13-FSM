@@ -1,0 +1,14 @@
+public class ValidJava {
+    public static void main(String[] args) {
+        // This is a valid java file
+        System.out.println("laa"); // Here be a a comment
+        /*
+            Block comments are just fine.
+            They can have new lines
+            and stuff like: /*  / ****
+         */
+        if (1 == 1/* sanity check */) {
+            System.out.println("sane");
+        }
+    }
+}

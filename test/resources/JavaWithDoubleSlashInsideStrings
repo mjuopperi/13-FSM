@@ -1,0 +1,8 @@
+public class JavaWithDoubleSlashInsideStrings {
+    public static void main(String[] args) {
+        System.out.println("//laa");
+        if ("/*this*/".equals("/*that*/")) {
+            System.out.println("//sane//");
+        }
+    }
+}
